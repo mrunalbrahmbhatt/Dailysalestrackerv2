@@ -4,6 +4,7 @@ using DailySalesTracker.Models;
 var builder = WebApplication.CreateBuilder(args);
 var AWS_ACCESS_KEY_ID="asdfasdfasdf";
 var AWS_SECRET_ACCESS_KEY="asdfafasdasfgsfgfg";
+//test
 
 // Add services to the container
 builder.Services.AddControllersWithViews();
