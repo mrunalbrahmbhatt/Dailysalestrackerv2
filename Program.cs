@@ -2,8 +2,8 @@ using Microsoft.EntityFrameworkCore;
 using DailySalesTracker.Models;
 
 var builder = WebApplication.CreateBuilder(args);
-//var AWS_ACCESS_KEY_ID="asdfasdfasdf";
-//var AWS_SECRET_ACCESS_KEY="asdfafasdasfgsfgfg";
+var AWS_ACCESS_KEY_ID="Passw0rd!";
+var AWS_SECRET_ACCESS_KEY="Passw0rd!";
 //test
 
 // Add services to the container
