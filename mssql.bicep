@@ -19,7 +19,7 @@ resource sqlServer 'Microsoft.Sql/servers@2021-05-01-preview' = {
   location: location
   properties: {
     administratorLogin: adminUsername
-    administratorLoginPassword: adminPassword
+    administratorLoginPassword: 'Password@123'
     minimalTlsVersion: '1.0' // Intentionally set to an outdated version
   }
 }
